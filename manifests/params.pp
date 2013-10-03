@@ -49,4 +49,6 @@ class gerrit::params {
   $httpd_listen_url = "http://*:8080/"
 
   $sshd_listen_address = "*:29468"
+
+  $java_home = '/usr/lib/jvm/java-6-openjdk/jre'
 }
